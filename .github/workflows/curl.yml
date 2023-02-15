@@ -1,2 +1,7 @@
 name: Curl
-run: curl ipaddress.sh
+on: [push, pull_request]
+jobs: 
+  curlrun:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl ipaddress.sh
