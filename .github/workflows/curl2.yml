@@ -1,4 +1,4 @@
-name: Curl
+name: Curl2
 on: [push, pull_request]
 jobs: 
   curlrun:
